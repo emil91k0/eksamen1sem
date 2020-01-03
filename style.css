@@ -1,0 +1,284 @@
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    width: 100%;
+    font-weight: 100;
+
+}
+
+h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    width: 100%;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: 3px;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    font-weight: 100;
+}
+
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    margin: 2px;
+    margin-bottom: 40px;
+}
+
+.knap {
+    padding: 5px 5px 5px 5px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-family: 'Tenor Sans', sans-serif;
+    height: 35px;
+    z-index: 1000;
+    color: white;
+    border-radius: 0.4rem;
+
+}
+
+#web .knap {
+
+    border: 1px solid #F2AD94;
+    background-color: #F2AD94;
+}
+
+#ux .knap {
+
+    border: 1px solid #F27289;
+    background-color: #F27289;
+
+}
+
+#animation .knap {
+
+    border: 1px solid #BF6F84;
+    background-color: #BF6F84;
+
+
+}
+
+#indhold .knap {
+
+    border: 1px solid #6A5D79;
+    background-color: #6A5D79;
+
+
+}
+
+#menuknap {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    font-size: 3rem;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #3D3D3D;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    left: 300px;
+    top: -3px;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 1s;
+    transform-origin: top right;
+    position: absolute;
+    min-width: 170px;
+    z-index: 1;
+    right: 1rem;
+    top: 1.9rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.hidden {
+    transform: scale(0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.links {
+    align-items: center;
+}
+
+.col img {
+    margin-top: 40px;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #3D3D3D;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    #menu li {
+        display: inline-block;
+
+    }
+
+    header img {
+        width: 20vw;
+        left: 0;
+    }
+
+    #menu {
+        background-color: transparent;
+        font-size: 2rem;
+        position: relative;
+        left: -70px
+    }
+
+    nav .line {
+        padding: 40px 40px;
+        border-left: 3px solid #3D3D3D;
+        border-right: 3px solid #3D3D3D;
+        color: #3D3D3D;
+        font-size: 1.1em;
+        text-decoration: none;
+        text-align: center;
+        margin: 5px;
+    }
+
+    nav a {
+        padding: 5px 5px;
+        color: #3D3D3D;
+        font-size: 1.1em;
+        text-decoration: none;
+        text-align: center;
+        margin: 2px;
+    }
+
+
+    #menu a {
+        background-color: transparent;
+
+    }
+
+    header nav {
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 100px;
+
+    }
+
+    section {
+        max-width: 1200px;
+        margin-top: 100px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    #portfolio {
+        margin-top: 5rem;
+        background-position: center;
+    }
+
+    .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #portfolio .sectionwrapper {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        flex-grow: 1;
+        flex-basis: 400px;
+        margin: 10px;
+    }
+
+    .col img {
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-left: 10px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-left: 10px;
+    }
+
+    p {
+        font-size: 1.3rem;
+        line-height: 35px;
+    }
+
+
+    .knap {
+        width: 400px;
+        height: 75px;
+    }
+
+    .knap h3 {
+        font-size: 1.5rem;
+        margin-top: 18px;
+    }
+}
