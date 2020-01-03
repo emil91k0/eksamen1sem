@@ -62,7 +62,8 @@ h3 {
 #web .sectionwrapper .col .knap h3,
 #ux .sectionwrapper .col .knap h3,
 #animation .sectionwrapper .col .knap h3,
-#indhold .sectionwrapper .col .knap h3 {
+#indhold .sectionwrapper .col .knap h3,
+#animation .sectionwrapper1 .col .knap h3 {
     color: white;
     font-size: 1rem;
 }
@@ -186,6 +187,15 @@ footer {
 
 }
 
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionwrapper1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
 
 @media only screen and (min-width: 600px) {
 
@@ -273,10 +283,8 @@ footer {
         background-position: center;
     }
 
-    .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-    }
+
+
 
     #portfolio .sectionwrapper {
         justify-content: center;
