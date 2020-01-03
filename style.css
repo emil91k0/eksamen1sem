@@ -59,7 +59,10 @@ h3 {
     color: #6A5D79;
 }
 
-#web .sectionwrapper .col .knap h3 {
+#web .sectionwrapper .col .knap h3,
+#ux .sectionwrapper .col .knap h3,
+#animation .sectionwrapper .col .knap h3,
+#indhold .sectionwrapper .col .knap h3 {
     color: white;
     font-size: 1rem;
 }
@@ -197,34 +200,35 @@ footer {
         flex-direction: row;
         justify-content: center;
 
+
+
     }
 
     #menu li {
         display: inline-block;
 
+
+
     }
 
-    header img {
-        width: 20vw;
-        left: 0;
-    }
 
     #menu {
         background-color: transparent;
-        font-size: 2rem;
-        position: relative;
-        left: -70px
+        font-size: 1rem;
+        position: fixed;
+
     }
 
     nav .line {
-        padding: 40px 40px;
-        border-left: 3px solid #3D3D3D;
-        border-right: 3px solid #3D3D3D;
+        padding: 20px 20px;
+        border-left: 2px solid #3D3D3D;
+        border-right: 2px solid #3D3D3D;
         color: #3D3D3D;
         font-size: 1.1em;
         text-decoration: none;
         text-align: center;
         margin: 5px;
+
     }
 
     nav a {
@@ -234,22 +238,28 @@ footer {
         text-decoration: none;
         text-align: center;
         margin: 2px;
+
     }
 
 
     #menu a {
         background-color: transparent;
 
+
     }
 
+    /*
     header nav {
 
         display: flex;
         align-items: flex-start;
         justify-content: center;
         margin-bottom: 100px;
+        background-color: white;
+
 
     }
+*/
 
     section {
         max-width: 1200px;
@@ -298,7 +308,7 @@ footer {
     }
 
     p {
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 35px;
     }
 
@@ -313,9 +323,26 @@ footer {
         margin-top: 18px;
     }
 
+    #ux .sectionwrapper .col .knap h3 {
+        font-size: 1.5rem;
+        margin-top: 18px;
+    }
+
+    #animation .sectionwrapper .col .knap h3 {
+        font-size: 1.5rem;
+        margin-top: 18px;
+    }
+
+    #indhold .sectionwrapper .col .knap h3 {
+        font-size: 1.5rem;
+        margin-top: 18px;
+    }
+
     .links {
         margin-bottom: 20px;
         margin-top: 60px;
     }
+
+
 
 }
