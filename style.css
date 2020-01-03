@@ -14,8 +14,11 @@ h1 {
     color: #3D3D3D;
     width: 100%;
     font-weight: 100;
+    margin-left: 2px;
 
 }
+
+
 
 h2 {
     font-family: 'Tenor Sans', sans-serif;
@@ -25,16 +28,40 @@ h2 {
     color: #3D3D3D;
     width: 100%;
     font-weight: 100;
+    margin-left: 2px;
 }
 
 h3 {
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: 3px;
     text-transform: uppercase;
-    color: white;
+    color: #3D3D3D;
     width: 100%;
     font-weight: 100;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+#web h3 {
+    color: #F2AD94;
+}
+
+#ux h3 {
+    color: #F27289;
+}
+
+#animation h3 {
+    color: #BF6F84;
+}
+
+#indhold h3 {
+    color: #6A5D79;
+}
+
+#web .sectionwrapper .col .knap h3 {
+    color: white;
+    font-size: 1rem;
 }
 
 
@@ -43,7 +70,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     line-height: 22px;
     margin: 2px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .knap {
@@ -266,6 +293,10 @@ footer {
         margin-left: 10px;
     }
 
+    h3 {
+        font-size: 1.5rem;
+    }
+
     p {
         font-size: 1.3rem;
         line-height: 35px;
@@ -277,8 +308,14 @@ footer {
         height: 75px;
     }
 
-    .knap h3 {
+    #web .sectionwrapper .col .knap h3 {
         font-size: 1.5rem;
         margin-top: 18px;
     }
+
+    .links {
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+
 }
