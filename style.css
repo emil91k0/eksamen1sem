@@ -88,8 +88,27 @@ p {
     z-index: 1000;
     color: white;
     border-radius: 0.4rem;
+    box-shadow: 2px 2px #888888;
+    cursor: pointer;
 
 }
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.knap:hover {
+    transform: scale(1.1);
+}
+
+.col_port:hover {
+    transform: scale(1.1)
+}
+
 
 #web .knap {
 
