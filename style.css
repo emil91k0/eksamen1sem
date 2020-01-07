@@ -370,6 +370,8 @@ footer {
         margin-top: 60px;
     }
 
-
+    #portfolio img {
+        padding: 20px;
+    }
 
 }
