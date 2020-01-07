@@ -235,9 +235,13 @@ footer {
 }
 
 .col {
-    display: flex;
+
     flex-wrap: wrap;
 
+}
+
+.fix {
+    display: flex;
 }
 
 .colinner {
