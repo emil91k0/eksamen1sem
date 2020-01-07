@@ -95,6 +95,12 @@ p {
 
 a:visited {
     text-decoration: none;
+
+}
+
+#menu a:visited {
+    text-decoration: none;
+    color: black;
 }
 
 a:link {
@@ -170,15 +176,7 @@ a :hover {
 
 
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+
 
 .links {
     align-items: center;
@@ -224,6 +222,11 @@ footer {
     text-align: center;
     margin-bottom: 20px;
     color: #325A73;
+}
+
+.pil img {
+    width: 80px;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -285,20 +288,10 @@ footer {
         background-color: transparent;
 
 
-    }
-
-    /*
-    header nav {
-
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        margin-bottom: 100px;
-        background-color: white;
-
 
     }
-*/
+
+
 
     section {
         max-width: 1200px;
@@ -384,4 +377,8 @@ footer {
         padding: 20px;
     }
 
+    .pil img {
+        width: 150px;
+        margin-left: 200px;
+    }
 }
